@@ -1,0 +1,12 @@
+nelmio_api_doc:
+    documentation:
+        host: localhost:8000
+        schemes: [http]
+        info:
+            title: Code Challenge
+            description: "Swagger documentation to demonstrate the API that get and log the current date-time"
+            version: 1.0.0
+            contact: { email: taziabdelmounaim@gmail.com, name: Abdel Mounaim Tazi}
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc

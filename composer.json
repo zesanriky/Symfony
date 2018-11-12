@@ -7,14 +7,20 @@
         "ext-iconv": "*",
         "friendsofsymfony/rest-bundle": "^2.4",
         "jms/serializer-bundle": "^2.4",
+        "nelmio/api-doc-bundle": "^3.3",
+        "nesbot/carbon": "^2.5",
         "sensiolabs/security-checker": "^5.0",
+        "symfony/asset": "4.1.*",
         "symfony/console": "4.1.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.1.*",
         "symfony/maker-bundle": "^1.9",
+        "symfony/validator": "4.1.*",
+        "symfony/web-server-bundle": "4.1.*",
         "symfony/yaml": "4.1.*"
     },
     "require-dev": {
+        "symfony/debug-pack": "^1.0",
         "symfony/dotenv": "4.1.*"
     },
     "config": {
