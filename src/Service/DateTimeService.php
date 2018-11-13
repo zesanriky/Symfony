@@ -10,6 +10,8 @@ namespace App\Service;
 
 
 use Carbon\Carbon;
+use Psr\Container\ContainerInterface;
+use Psr\Log\LoggerInterface;
 use Symfony\Component\OptionsResolver\Exception\InvalidArgumentException;
 use Symfony\Component\Validator\Exception\ValidatorException;
 
@@ -36,6 +38,21 @@ class DateTimeService {
 	        "Rss",
 	        "W3c",
     ];
+	/**
+	 * @var LoggerInterface
+	 */
+	private $logger;
+	/**
+	 * @var ContainerInterface
+	 */
+	private $container;
+
+	public function __construct(LoggerInterface $logger,ContainerInterface $container)
+	{
+		$this->logger = $logger;
+
+		$this->container = $container;
+	}
 
 
 	/**
@@ -47,10 +64,25 @@ class DateTimeService {
 	 */
 	public function getCurrent( string $format )
 	{
-		return ($format !== "default") ?
-			Carbon::now()->{'to'.$format.'String'}() :
-			Carbon::now()->format( self::FORMAT) ;
+		return $this->getDateWithGivenFormat( Carbon::now(), $format);
 
+	}
+
+	public function log( $format, $datetime )
+	{
+		$this->logger->info(
+			$this->getDateWithGivenFormat(
+				Carbon::parse( $datetime),
+				$format
+			)
+		);
+	}
+
+	private function getDateWithGivenFormat( Carbon $date, $format ): string
+	{
+		return ($format !== "default") ?
+			$date->{'to'.$format.'String'}() :
+			$date->format( self::FORMAT) ;
 	}
 
 }
