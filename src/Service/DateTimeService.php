@@ -35,7 +35,6 @@ class DateTimeService {
 	        "Rfc3339",
 	        "Rfc7231",
 	        "Rss",
-	        "Rss",
 	        "W3c",
     ];
 	/**

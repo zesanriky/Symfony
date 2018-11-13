@@ -122,7 +122,7 @@ class DateTimeController extends FOSRestController
 	 *     "default","Atom","Cookie","Iso8601",
 	 *     "ISO","Iso8601Zulu","DateTimeLocal",
 	 *     "Rfc822","Rfc850","Rfc1036","Rfc1123",
-	 *     "Rfc2822","Rfc3339","Rfc7231","Rss","Rss","W3c"},
+	 *     "Rfc2822","Rfc3339","Rfc7231","Rss","W3c"},
 	 *     type="string",default="default", description="The datetime format desired, default format is **`Y-m-d H:i:s`**."
 	 * )
 	 *

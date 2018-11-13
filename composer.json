@@ -19,6 +19,7 @@
         "symfony/templating": "4.1.*",
         "symfony/validator": "4.1.*",
         "symfony/web-server-bundle": "4.1.*",
+        "symfony/webpack-encore-bundle": "^1.0",
         "symfony/yaml": "4.1.*"
     },
     "require-dev": {
