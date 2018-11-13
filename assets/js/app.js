@@ -10,7 +10,6 @@
  */
 
 import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
-import colors from 'vuetify/es5/util/colors' // Ensure you are using css-loader
 import 'material-design-icons-iconfont/dist/material-design-icons.css' // Ensure you are using css-loader
 
 require('../css/app.css');

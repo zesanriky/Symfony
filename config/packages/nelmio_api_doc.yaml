@@ -4,7 +4,7 @@ nelmio_api_doc:
         schemes: [http]
         info:
             title: Code Challenge
-            description: "Swagger documentation to demonstrate the API that get and log the current date-time"
+            description: "Swagger documentation to demonstrate the API that get and log the current date-time, **Note**: You can check the [Welcome](http://localhost:8000) route to see UI support"
             version: 1.0.0
             contact: { email: taziabdelmounaim@gmail.com, name: Abdel Mounaim Tazi}
     areas: # to filter documented areas
