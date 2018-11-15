@@ -29,6 +29,8 @@ Usage
 ```bash
 $ cd code_challenge/
 $ composer install
+$ yarn install
+$ yarn build
 $ php bin/console server:run
 ```
 Browser to <http://localhost:8000/api/doc> for Swagger demonstration Or <http://localhost:8000> for UI demonstration:
