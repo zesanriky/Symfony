@@ -20,8 +20,8 @@ Installation
 $ git clone https://github.com/zesanriky/Symfony
 ```
 
-Usage
------
+How to run the project
+----------------------
 
 ```bash
 $ cd code_challenge/
