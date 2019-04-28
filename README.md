@@ -1,9 +1,6 @@
-Code Challenge
-========================
-
 Assignments
 ----------
-**Create RESTful API with swagger**
+**Create RESTful API with swagger Challenge**
 
 1. Development Symfony based application with RESTful API, Swagger documentation to demonstrate the API, one service to get the current date-time.
 2. RESTful service that sends the current date time from the browser-client to the server and logs it to the PSR-3 logger.
