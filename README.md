@@ -20,7 +20,7 @@ Installation
 ------------
 
 ```bash
-$ git clone https://github.com/AMTazi/code_challenge.git
+$ git clone https://github.com/zesanriky/Symfony
 ```
 
 Usage
@@ -38,3 +38,4 @@ Browser to <http://localhost:8000/api/doc> for Swagger demonstration Or <http://
 
 
 [2]: https://symfony.com/doc/current/reference/requirements.html
+# Symfony
