@@ -1,5 +1,5 @@
-Assignments
-----------
+Assignments based on Symfony Framework
+--------------------------------------
 **Create RESTful API with swagger Challenge**
 
 1. Development Symfony based application with RESTful API, Swagger documentation to demonstrate the API, one service to get the current date-time.
@@ -35,4 +35,3 @@ Browser to <http://localhost:8000/api/doc> for Swagger demonstration Or <http://
 
 
 [2]: https://symfony.com/doc/current/reference/requirements.html
-# Symfony Framework
