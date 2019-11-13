@@ -17,7 +17,7 @@ Installation
 ------------
 
 ```bash
-$ git clone https://github.com/zesanriky/Symfony
+$ git clone https://github.com/zesanriky/Symfony https://github.com/AMTazi/symfony-flayer
 ```
 
 How to run the project
